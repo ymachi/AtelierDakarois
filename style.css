@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: century;
+}
+
+body{
+    background-image: url(./images/affiche.JPG);
+    height: 100vh;
+    
+}
+
+.logo a{
+     color: black;
+     padding: 0px 20px;
+     border:1px solid black;
+     position: absolute;
+     top: 10px;
+     left: 10px;
+     text-transform: initial;
+     text-decoration: none;
+     font-weight: 900;
+}
+
+ul{
+    list-style: none;
+    float: right;
+    display: flex;
+    margin-top: 20px;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    text-transform: initial;
+    border: 1px solid transparent;
+    margin: 10px;
+    font-weight: 500;
+    transition: 0.6s ease;
+
+}
+
+ul li a:hover{
+    background-color: black;
+    color:white;
+}
+
+ul li.active a{
+    background: black;
+    color: white;
+}
+
+.principale{
+    max-width: 114rem;
+    margin: 0 auto;
+}
+
+.titre{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.titre h1{
+    font-size: 70px;
+    background-color: white;
+}
+
+h2{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+
+}
+
+.bouton{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bouton a{
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 10px 20px;
+
+}
+
+.btn{
+    transition: 0.6s ease;
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+
+.un{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    margin: 0px;
+    background-color: white;
+
+
+}
