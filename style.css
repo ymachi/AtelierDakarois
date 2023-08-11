@@ -176,6 +176,7 @@ h2{
 .remember-forgot a{
     color: black;
     text-decoration: none;
+    font-weight: 600;
 }
 
 .remember-forgot a:hover{
