@@ -234,3 +234,10 @@ h2{
     background-image: url(images/affiche.JPG);
 
 }
+
+.inscription{
+    justify-content: center;
+    align-items: center;
+    padding: 40px 30px;
+    background-image: url(images/affiche.JPG);
+}
