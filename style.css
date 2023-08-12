@@ -284,6 +284,7 @@ input[type=text], textarea, input[type=email], input[type=password] {
     justify-content: center;
     align-items: center;
     padding-top: 10%;
+  
     
     /* redéfinition 400 + 2*20 */
     max-width: 440px;
